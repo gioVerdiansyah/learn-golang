@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello user</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container h1{
+            font-weight: bold;
+            font-family: Arial,serif;
+        }
+        .container p{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Hello User</h1>
+    <p>Iam {{.Name}}. My age is {{.Age}} years old.</p>
+    <p>{{.Messages}}</p>
+</div>
+</body>
+</html>
